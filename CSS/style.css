@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;color: #666666;margin: 0;font-size: 16px
+}
+header{
+	width: 100%;height: 60px;background-color: #D7C3BC;border-bottom: 1px solid #8B0000
+}
+main{
+	width: 100%;min-height: 500px
+}
+aside{
+	width: 30%;min-height: 500px;padding: 15px
+}
+.content{
+	width: 70%;min-height: 500px;
+}
+footer{
+	width: 100%;min-height: 200px;background-color: #B4B4B4
+}
+.menu ul{
+	padding: 0;margin: 0;display: flex;list-style: none
+}
+.menu{
+	padding: 20px
+}
+.menu ul a{
+	padding: 10px 30px;text-decoration: none;color: #3F3F3F;border-radius: 20px
+}
+.menu ul a:hover{
+	background-color: darkred;color: white
+}
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color: #478FFF;
+      text-decoration: none; }
+
+.text-do{
+	color: darkred
+}
+aside ul{
+	padding: 0;margin: 0;list-style: none;display: flex;flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #D0CDCD
+}
+aside ul li a{
+	display: block;text-decoration: none;color: #666666;padding: 10px
+}
+aside ul li a:hover{
+	background-color: darkred;color: white
+}
+.text-center{
+	text-align: center
+}
+footer a{
+	text-decoration: none;color: #575757
+}
+footer a:hover{
+	color: darkred
+}
+.bg-xanh{
+	background-color: #46A6F4
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display:flex;flex-direction: column;text-align: center 
+}
+footer ul li a{
+	color:#868686 ;padding: 10px;display: block
+		
+}
+footer ul li a:hover{
+	color: white
+}
